@@ -5,7 +5,7 @@ time_now=`date +"%Y-%m-%d__%H:%M:%S"`
 ave_load=`uptime | tr " " "\n" | tail -n 3 | xargs | tr -d ","`
 ## 平均负载
 ave_use1=( `cat /proc/stat | head -n 1 | awk '{printf("%s %s\n", $2+$3+$4+$5+$6+$7+$8+$9+$10+$11, $5)}'` )
-sleep 5s
+sleep 0.5s
 ave_use2=( `cat /proc/stat | head -n 1 | awk '{printf("%s %s\n", $2+$3+$4+$5+$6+$7+$8+$9+$10+$11, $5)}'` )
 (( use1 = ${ave_use2[0]}-${ave_use1[0]} ))
 (( use2 = ${ave_use2[1]}-${ave_use1[1]} ))
