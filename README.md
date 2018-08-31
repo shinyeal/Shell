@@ -25,3 +25,7 @@
 ### cpu_massage cpu信息
 
 ### cup_test 电脑配置信息
+
+### disk 磁盘信息
+
+### mem 内存信息
