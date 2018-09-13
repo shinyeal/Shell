@@ -29,3 +29,5 @@
 #### disk 磁盘信息
 
 #### mem 内存信息
+
+#### malice_process 恶意进程提醒
