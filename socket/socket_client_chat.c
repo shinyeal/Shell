@@ -5,6 +5,8 @@
 	> Created Time: 2018年09月26日 星期三 15时13分33秒
  ************************************************************************/
 
+//socket客户端发送消息
+
 #include <arpa/inet.h>
 #include <ctype.h>
 #include <dirent.h>
