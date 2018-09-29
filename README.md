@@ -31,3 +31,5 @@
 #### mem 内存信息
 
 #### malice_process 恶意进程提醒
+
+#### socket
